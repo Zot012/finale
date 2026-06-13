@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "873987138688",
+    "project_id": "finale-a7481",
+    "storage_bucket": "finale-a7481.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873987138688:android:1d94982f7e27111d687265",
+        "android_client_info": {
+          "package_name": "com.example.finale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873987138688-ts69t094kgj0n420oq02oorr7puu8qh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finale",
+            "certificate_hash": "2dbbdbd5eca15d3308144107a9a18f798ce74502"
+          }
+        },
+        {
+          "client_id": "873987138688-mfbdh1odegi0eilitt40qq62ec0782im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLqR369XZcM-w5utfKfzYx-h3hb6fygGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873987138688-mfbdh1odegi0eilitt40qq62ec0782im.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "873987138688-t55c06psk86ltio8cju184o86lqugapk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.finale"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

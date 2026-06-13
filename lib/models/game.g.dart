@@ -1,0 +1,68 @@
+// GENERATED CODE - manually written to avoid build_runner dependency
+
+part of 'game.dart';
+Game _$GameFromJson(Map<String, dynamic> json) => Game(
+    name: json['name'] as String? ?? '',
+    appid: (json['appid'] as num?)?.toInt() ?? 0,
+    headerImage: json['header_image'] as String? ?? '',
+    largeCapsuleImage: json['large_capsule_image'] as String? ?? '',
+    smallCapsuleImage: json['small_capsule_image'] as String? ?? '',
+    price: (json['price'] as num?)?.toDouble() ?? 0.0,
+    discountPercent: (json['discount_percent'] as num?)?.toInt() ?? 0,
+    discounted: json['discounted'] as bool? ?? false,
+    originalPrice: (json['original_price'] as num?)?.toDouble() ?? 0.0,
+    finalPrice: (json['final_price'] as num?)?.toDouble() ?? 0.0,
+    currency: json['currency'] as String? ?? '',
+    windowsAvailable: json['windows_available'] as bool? ?? false,
+    macAvailable: json['mac_available'] as bool? ?? false,
+    linuxAvailable: json['linux_available'] as bool? ?? false,
+    streamingvideoAvailable: json['streamingvideo_available'] as bool? ?? false,
+    rating: (json['rating'] as num?)?.toDouble() ?? 0.0,
+    released: json['released'] as String? ?? '',
+    requiredAge: (json['required_age'] as num?)?.toInt() ?? 0,
+    description: json['description'] as String? ?? '',
+    screenshots: (json['screenshots'] as List<dynamic>?)
+        ?.map((e) => e as String)
+        .toList() ??
+      [],
+    genres: (json['genres'] as List<dynamic>?)?.map((e) => e as String).toList() ?? [],
+    developers: (json['developers'] as List<dynamic>?)?.map((e) => e as String).toList() ?? [],
+    categories: (json['categories'] as List<dynamic>?)?.map((e) => e as String).toList() ?? [],
+    reviewScoreDesc: json['review_score_desc'] as String? ?? '',
+    reviewTotal: (json['review_total'] as num?)?.toInt() ?? 0,
+    reviewPositivePercent: (json['review_positive_percent'] as num?)?.toInt() ?? 0,
+    players: (json['players'] as num?)?.toInt() ?? 0,
+    steamUrl: json['steam_url'] as String? ?? '',
+  );
+
+Map<String, dynamic> _$GameToJson(Game instance) => <String, dynamic>{
+      'name': instance.name,
+      'appid': instance.appid,
+      'header_image': instance.headerImage,
+      'large_capsule_image': instance.largeCapsuleImage,
+      'small_capsule_image': instance.smallCapsuleImage,
+      'price': instance.price,
+      'discount_percent': instance.discountPercent,
+  'discounted': instance.discounted,
+  'original_price': instance.originalPrice,
+  'final_price': instance.finalPrice,
+  'currency': instance.currency,
+  'windows_available': instance.windowsAvailable,
+      'mac_available': instance.macAvailable,
+      'linux_available': instance.linuxAvailable,
+      'streamingvideo_available': instance.streamingvideoAvailable,
+      'rating': instance.rating,
+      'released': instance.released,
+      'required_age': instance.requiredAge,
+      'description': instance.description,
+      'screenshots': instance.screenshots,
+      'genres': instance.genres,
+      'developers': instance.developers,
+      'categories': instance.categories,
+      'review_score_desc': instance.reviewScoreDesc,
+      'review_total': instance.reviewTotal,
+      'review_positive_percent': instance.reviewPositivePercent,
+      'players': instance.players,
+      'steam_url': instance.steamUrl,
+      
+    };

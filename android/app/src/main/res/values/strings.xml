@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">finale</string>
+    <!-- Web OAuth client ID (used by Google Sign-In / Firebase on Android) -->
+    <string name="default_web_client_id">873987138688-mfbdh1odegi0eilitt40qq62ec0782im.apps.googleusercontent.com</string>
+</resources>
